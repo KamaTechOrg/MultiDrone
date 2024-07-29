@@ -25,6 +25,15 @@
     <Filter Include="Test\Validation">
       <UniqueIdentifier>{8dfbaf11-f5ef-407c-80bb-48e7fd1f1900}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Socket_communication">
+      <UniqueIdentifier>{71db4248-c649-4d58-8f4e-74ddc0bc0bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Socket_communication">
+      <UniqueIdentifier>{a4009927-c9a0-4474-bb39-8cf03d4c8ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Socket_communication">
+      <UniqueIdentifier>{3f6ef1f4-63ce-4604-a9f8-a011e9989a8d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="communication.cpp">
@@ -87,6 +96,12 @@
     <ClCompile Include="..\Validation\Validation_test.cpp">
       <Filter>Test\Validation</Filter>
     </ClCompile>
+    <ClCompile Include="E:\practikum-30.7\server-multi-drone-communication\server-multi-drone-communication\Server-function.cpp">
+      <Filter>Source Files\Socket_communication</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\practikum-30.7\server-multi-drone-communication\server-multi-drone-communication\Server_test.cpp">
+      <Filter>Test\Socket_communication</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D3Message.h">
@@ -127,6 +142,9 @@
     </ClInclude>
     <ClInclude Include="..\Validation\VecValidation.h">
       <Filter>Header Files\Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\practikum-30.7\server-multi-drone-communication\server-multi-drone-communication\Server-function.h">
+      <Filter>Header Files\Socket_communication</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

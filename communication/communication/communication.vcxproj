@@ -141,6 +141,8 @@
     <ClCompile Include="D3Message_test.cpp" />
     <ClCompile Include="Data.cpp" />
     <ClCompile Include="Data_test.cpp" />
+    <ClCompile Include="E:\practikum-30.7\server-multi-drone-communication\server-multi-drone-communication\Server-function.cpp" />
+    <ClCompile Include="E:\practikum-30.7\server-multi-drone-communication\server-multi-drone-communication\Server_test.cpp" />
     <ClCompile Include="MatMessage.cpp" />
     <ClCompile Include="MatMessage_test.cpp" />
     <ClCompile Include="Message.cpp" />
@@ -158,6 +160,7 @@
     <ClInclude Include="D3Message.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="doctest.h" />
+    <ClInclude Include="E:\practikum-30.7\server-multi-drone-communication\server-multi-drone-communication\Server-function.h" />
     <ClInclude Include="MatMessage.h" />
     <ClInclude Include="Message.h" />
     <ClInclude Include="Meta_Data.h" />
