@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <fstream>
 #include <Windows.h>
+#include <Windows.h>
 
 class Image
 {
