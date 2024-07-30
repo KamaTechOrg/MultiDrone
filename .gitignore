@@ -30,6 +30,15 @@
 *.exe
 *.out
 *.app
+
+*.vsidx
+*.suo
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.ipch
+*.vcxproj
+
 /communication/.vs/communication/FileContentIndex/192db3d7-6dd1-4a91-8612-6337518c90ef.vsidx
 /communication/.vs/communication/FileContentIndex/32cb975d-00e1-4c1b-87ca-20f10890f796.vsidx
 /communication/.vs/communication/FileContentIndex/66b61f85-05ab-49b8-8ab0-bef8cf487778.vsidx
@@ -62,3 +71,63 @@
 /communication/.vs/communication/v17/ipch/AutoPCH/fb17e6bfee534dd1/VECVALIDATION.ipch
 /communication/.vs/communication/v17/Solution.VC.db
 /communication/communication/communication.vcxproj
+
+
+# added bt noa rechnitzer - gpt
+# Build results
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.dll
+*.vsdx
+
+# Visual Studio files
+.vscode/
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.ipch
+*.cachefile
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directory
+.vscode/
+
+# Local configuration files
+*.local
+*.local.json
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+
+# QtCreator generated files
+*.pro.user
+*.qbs.user
+*.qbs.user.*
+*.pro.user.*
+*.creator.user.*
+*.creator.user
+*.creator.log
+*.creator.bak
+
+# Mac specific files
+.DS_Store
