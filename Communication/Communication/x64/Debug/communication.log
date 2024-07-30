@@ -1,0 +1,174 @@
+﻿  Convert.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\Convert.cpp(14,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\Convert.cpp(23,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Convert_test.cpp
+  CRCalgoritm.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.h(19,85): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file '../Validation/CRCalgoritm.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(3,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(13,108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(13,110): warning C5043: 'CRCalgoritm::copyArr': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.h(13,7):
+  see declaration of 'CRCalgoritm::copyArr'
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(24,124): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(24,126): warning C5043: 'CRCalgoritm::divideModolo2': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.h(11,18):
+  see declaration of 'CRCalgoritm::divideModolo2'
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(25,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(25,21): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(26,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(26,21): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(66,129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(66,131): warning C5043: 'CRCalgoritm::getRemainder': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.h(15,18):
+  see declaration of 'CRCalgoritm::getRemainder'
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(69,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(70,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(91,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(92,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(95,97): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.cpp(108,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CRCalgoritm_test.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.h(19,85): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file '../Validation/CRCalgoritm_test.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm_test.cpp(14,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm_test.cpp(23,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  D3Validation.cpp
+  MatValidation.cpp
+  Validation.cpp
+  Validation_test.cpp
+  VecValidation.cpp
+  communication.cpp
+  D3Message.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(16,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'D3Message.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(17,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'D3Message.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(18,86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(19,2): warning C5043: 'D3Message::D3Message': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.h(16,2):
+  see declaration of 'D3Message::D3Message'
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(21,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(22,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(23,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(32,116): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(33,1): warning C5043: 'D3Message::getreminder': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.h(20,42):
+  see declaration of 'D3Message::getreminder'
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(34,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(52,130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(53,1): warning C5043: 'D3Message::checkInReceive': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.h(21,7):
+  see declaration of 'D3Message::checkInReceive'
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\D3Message.cpp(54,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  D3Message_test.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(16,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'D3Message_test.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(17,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'D3Message_test.cpp')
+  
+  Data.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(16,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Data.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(17,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Data.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Data.cpp(30,72): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Data.cpp(30,74): warning C5043: 'Data::Data': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Data.h(19,2):
+  see declaration of 'Data::Data'
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Data.cpp(109,83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Data.cpp(156,39): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Data.cpp(157,1): warning C5043: 'Data::receive': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Data.h(28,7):
+  see declaration of 'Data::receive'
+  
+  Data_test.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(16,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Data_test.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(17,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Data_test.cpp')
+  
+  MatMessage.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(16,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'MatMessage.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(17,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'MatMessage.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.h(19,85): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'MatMessage.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.cpp(5,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.cpp(15,103): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.cpp(16,1): warning C5043: 'MatMessage::getreminder': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(27,34):
+  see declaration of 'MatMessage::getreminder'
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.cpp(17,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.cpp(17,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.cpp(46,122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.cpp(47,1): warning C5043: 'MatMessage::checkInReceive': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(28,7):
+  see declaration of 'MatMessage::checkInReceive'
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.cpp(50,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.cpp(51,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.cpp(52,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  MatMessage_test.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(16,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'MatMessage_test.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\MatMessage.h(17,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'MatMessage_test.cpp')
+  
+  Message.cpp
+  Meta_Data.cpp
+  Server-function.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Server-function.cpp(42,25): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'WCHAR *'
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Server-function.cpp(42,25):
+  consider using '%ls' in the format string
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Server-function.cpp(42,25):
+  consider using '%lls' in the format string
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Server-function.cpp(42,25):
+  consider using '%Ls' in the format string
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Server-function.cpp(42,25):
+  consider using '%ws' in the format string
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Server-function.cpp(52,29): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Server-function.cpp(65,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Server-function.cpp(124,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Server-function.cpp(140,26): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+  Server-test.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Server-test.cpp(13,20): warning C4309: 'initializing': truncation of constant value
+  Generating Code...
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Meta_Data.cpp(30): warning C4715: 'copyValidation': not all control paths return a value
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\Data.cpp(28): warning C4715: 'copyMessage': not all control paths return a value
+  Compiling...
+  VecMessage.cpp
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\Validation\CRCalgoritm.h(19,85): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  (compiling source file 'VecMessage.cpp')
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\VecMessage.cpp(19,107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\VecMessage.cpp(20,1): warning C5043: 'VecMessage::checkInReceive': exception specification does not match previous declaration
+  D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\VecMessage.h(19,7):
+  see declaration of 'VecMessage::checkInReceive'
+  
+D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\communication\VecMessage.cpp(24,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  VecMessage_test.cpp
+  Generating Code...
+  communication.vcxproj -> D:\part_B\practicum\MultiDrone Communication - from cloud\MultiDrone\Communication\x64\Debug\communication.exe
