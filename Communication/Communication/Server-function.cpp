@@ -28,7 +28,7 @@ int initialize_winsock() {
     }
     return 0;
 }
-int get_server_info(const char* hostname, const char* port, struct addrinfo* hints, struct addrinfo** servinfo) {
+int get_server_info(const char* hostname, struct addrinfo* hints, struct addrinfo** servinfo) {
     // Set up the address information
     memset(hints, 0, sizeof hints);
     hints->ai_family = AF_INET;
@@ -38,7 +38,7 @@ int get_server_info(const char* hostname, const char* port, struct addrinfo* hin
 
     //in erorr- print this
     int rv;
-    if ((rv = getaddrinfo(NULL, port, hints, servinfo)) != 0) {
+    if ((rv = getaddrinfo(NULL, DEFAULT_PORT, hints, servinfo)) != 0) {
         fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(rv));
         WSACleanup();
         return 1;
@@ -46,7 +46,8 @@ int get_server_info(const char* hostname, const char* port, struct addrinfo* hin
     return 0;
 
 }
-int bind_to_first_available(int& sockfd, struct addrinfo* servinfo) {
+//creat the socket by the servinfo- that contain the ip adress and protocol number.
+int bind_to_first_available_socket(int& sockfd, struct addrinfo* servinfo) {
     struct addrinfo* p;
     for (p = servinfo; p != NULL; p = p->ai_next) {
         if ((sockfd = socket(p->ai_family, p->ai_socktype, p->ai_protocol)) == -1) {
@@ -134,7 +135,7 @@ int define_clients_sockets_and_poll(std::vector<int>& clientSockets, WSAPOLLFD f
     }
     return 0;
 }
-int check_about_new_connection(int& ListenSocket, WSAPOLLFD fds[FD_SETSIZE], std::vector<int>& clientSockets) {
+int check_about_new_client_connection(int& ListenSocket, WSAPOLLFD fds[FD_SETSIZE], std::vector<int>& clientSockets) {
     // Check if there's a new connection
     if (fds[0].revents & POLLRDNORM) {
         int ClientSocket = accept(ListenSocket, NULL, NULL);

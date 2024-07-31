@@ -1,7 +1,5 @@
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
 #include "Server-function.h"
-
 #ifndef _ws2tcpip
 #define ws2tcpip
 #include <ws2tcpip.h>
@@ -14,21 +12,21 @@ int ListenSocket = INVALID_SOCKET;
 char recvbuf[DEFAULT_BUFLEN];
 int recvbuflen = DEFAULT_BUFLEN;
 
-TEST_CASE("initial") {
+TEST_CASE("initialize_winsock") {
 	int x = initialize_winsock();
-	printf("initial=%d\n", x);
+	printf("initialize_winsock=%d\n", x);
 	CHECK(x == 0);
 }
 
-TEST_CASE("setup_addrinfo") {
-	int x = get_server_info("192.168.55.188", "27015", &hints, &servinfo);
-	printf("setup_addrinfo=%d\n", x);
+TEST_CASE("get_server_info") {
+	int x = get_server_info(" ", &hints, &servinfo);
+	printf("get_server_info=%d\n", x);
 	CHECK(x == 0);
 }
 
-TEST_CASE("bind_to_first") {
-	int x = bind_to_first_available(sockfd, servinfo);
-	printf("bind_to_first=%d\n", x);
+TEST_CASE("bind_to_first_available_socket") {
+	int x = bind_to_first_available_socket(sockfd, servinfo);
+	printf("bind_to_first_available_socket=%d\n", x);
 	CHECK(x == 0);
 }
 
@@ -49,7 +47,7 @@ TEST_CASE("the central while") {
 		//printf("%d", ++i);
 		int result = define_clients_sockets_and_poll(clientSockets, fds);
 		if (result == 1) break;
-		result = check_about_new_connection(sockfd, fds, clientSockets);
+		result = check_about_new_client_connection(sockfd, fds, clientSockets);
 		if (result == 1) continue;
 		checking_incoming_data_for_each_client(fds, clientSockets, recvbuf, recvbuflen);
 	}

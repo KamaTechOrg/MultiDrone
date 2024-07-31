@@ -5,8 +5,8 @@
 
 #pragma region regular connection
 int initialize_winsock();
-int get_server_info(const char* hostname, const char* port, struct addrinfo* hints, struct addrinfo** servinfo);
-int bind_to_first_available(int& sockfd, struct addrinfo* servinfo);
+int get_server_info(const char* hostname, struct addrinfo* hints, struct addrinfo** servinfo);
+int bind_to_first_available_socket(int& sockfd, struct addrinfo* servinfo);
 int start_listening(int& sockfd);
 #pragma endregion
 // Add a new file descriptor to the set
@@ -17,7 +17,7 @@ void del_from_pfds(struct pollfd pfds[], int i, int* fd_count);
 
 //while(true)
 int define_clients_sockets_and_poll(std::vector<int>& clientSockets, WSAPOLLFD fds[FD_SETSIZE]);
-int check_about_new_connection(int& ListenSocket, WSAPOLLFD fds[FD_SETSIZE], std::vector<int>& clientSockets);
+int check_about_new_client_connection(int& ListenSocket, WSAPOLLFD fds[FD_SETSIZE], std::vector<int>& clientSockets);
 void accept_message(std::vector<int>& clientSockets, int& i, char recvbuf[DEFAULT_BUFLEN], int& recvbuflen);
 void checking_incoming_data_for_each_client(WSAPOLLFD fds[FD_SETSIZE], std::vector<int>& clientSockets, char recvbuf[DEFAULT_BUFLEN], int& recvbuflen);
 void cleanup(int ListenSocket);
