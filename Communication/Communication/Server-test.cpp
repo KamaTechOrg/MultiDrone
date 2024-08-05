@@ -38,16 +38,18 @@ TEST_CASE("start_listening") {
 
 TEST_CASE("the central while") {
 	std::vector<int> clientSockets;
-	WSAPOLLFD activeConnections[FD_SETSIZE];
-	activeConnections[0].fd = sockfd;
-	activeConnections[0].events = POLLRDNORM;
+	WSAPOLLFD fds[FD_SETSIZE];
+	fds[0].fd = sockfd;
+	fds[0].events = POLLRDNORM;
+	int i = 0;
 	while (true)
 	{
-		int result = define_clients_sockets_and_poll(clientSockets, activeConnections);
+		//printf("%d", ++i);
+		int result = define_clients_sockets_and_poll(clientSockets, fds);
 		if (result == 1) break;
-		result = check_about_new_client_connection(sockfd, activeConnections, clientSockets);
+		result = check_about_new_client_connection(sockfd, fds, clientSockets);
 		if (result == 1) continue;
-		checking_incoming_data_for_each_client(activeConnections, clientSockets, recvbuf, recvbuflen);
+		checking_incoming_data_for_each_client(fds, clientSockets, recvbuf, recvbuflen);
 	}
 
 }

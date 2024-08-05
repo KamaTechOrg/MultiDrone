@@ -25,7 +25,6 @@
     <Filter Include="Test\Validation">
       <UniqueIdentifier>{8dfbaf11-f5ef-407c-80bb-48e7fd1f1900}</UniqueIdentifier>
     </Filter>
-<<<<<<< HEAD
     <Filter Include="Header Files\Socket Communication">
       <UniqueIdentifier>{0073e0d8-e67b-4e60-acc8-04c1ee5323bb}</UniqueIdentifier>
     </Filter>
@@ -34,16 +33,6 @@
     </Filter>
     <Filter Include="Test\Socket Communication">
       <UniqueIdentifier>{5b7b0609-3041-4c2c-8609-c08688a0f60e}</UniqueIdentifier>
-=======
-    <Filter Include="Header Files\DataTransferring">
-      <UniqueIdentifier>{c3649d93-a798-4637-813c-1fc6d22d2111}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\DataTransferring">
-      <UniqueIdentifier>{2ca812b8-2118-48ca-a283-512da5067653}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Test\DataTransferring">
-      <UniqueIdentifier>{16521998-4719-4cdc-b681-94a69e469f1d}</UniqueIdentifier>
->>>>>>> team_Communication
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -107,19 +96,11 @@
     <ClCompile Include="..\Validation\Validation_test.cpp">
       <Filter>Test\Validation</Filter>
     </ClCompile>
-<<<<<<< HEAD
     <ClCompile Include="Server-function.cpp">
       <Filter>Source Files\Socket Communication</Filter>
     </ClCompile>
     <ClCompile Include="Server-test.cpp">
       <Filter>Test\Socket Communication</Filter>
-=======
-    <ClCompile Include="..\Data_transferring\TransferData.cpp">
-      <Filter>Source Files\DataTransferring</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Data_transferring\TransferData_test.cpp">
-      <Filter>Test\DataTransferring</Filter>
->>>>>>> team_Communication
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -162,13 +143,8 @@
     <ClInclude Include="..\Validation\VecValidation.h">
       <Filter>Header Files\Validation</Filter>
     </ClInclude>
-<<<<<<< HEAD
     <ClInclude Include="Server-function.h">
       <Filter>Header Files\Socket Communication</Filter>
-=======
-    <ClInclude Include="..\Data_transferring\TransferData.h">
-      <Filter>Header Files\DataTransferring</Filter>
->>>>>>> team_Communication
     </ClInclude>
   </ItemGroup>
 </Project>

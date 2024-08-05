@@ -98,28 +98,29 @@ int start_listening(int& sockfd) {
 
 
 
-void add_to_activeConnections(struct pollfd* activeConnections[], int newfd, int* fd_count, int* fd_size)
+void add_to_activeConnectionPollfds(struct pollfd* activeConnectionPollfds[], int newfd, int* fd_count, int* fd_size)
 {
-    // If we don't have room, add more space in the activeConnections array
+    // If we don't have room, add more space in the pfds array
     if (*fd_count == *fd_size) {
         *fd_size *= 2; // Double it
 
-        *activeConnections = (pollfd*)realloc(*activeConnections, sizeof(**activeConnections) * (*fd_size));
+        *activeConnectionPollfds = (pollfd*)realloc(*activeConnectionPollfds, sizeof(**activeConnectionPollfds) * (*fd_size));
     }
 
-    (*activeConnections)[*fd_count].fd = newfd;
-    (*activeConnections)[*fd_count].events = POLLIN; // Check ready-to-read
+    (*activeConnectionPollfds)[*fd_count].fd = newfd;
+    (*activeConnectionPollfds)[*fd_count].events = POLLIN; // Check ready-to-read
 
     (*fd_count)++;
 }
 // Remove an index from the set
-void del_from_activeConnections(struct pollfd activeConnections[], int i, int* fd_count)
+void del_from_activeConnectionPollfds(struct pollfd activeConnectionPollfds[], int i, int* fd_count)
 {
     // Copy the one from the end over this one
-    activeConnections[i] = activeConnections[*fd_count - 1];
+    activeConnectionPollfds[i] = activeConnectionPollfds[*fd_count - 1];
 
     (*fd_count)--;
 }
+//while(true)
 int define_clients_sockets_and_poll(std::vector<int>& clientSockets, WSAPOLLFD fds[FD_SETSIZE]) {
     int numFds = clientSockets.size() + 1;
 
@@ -140,6 +141,7 @@ int check_about_new_client_connection(int& ListenSocket, WSAPOLLFD fds[FD_SETSIZ
         int ClientSocket = accept(ListenSocket, NULL, NULL);
         if (ClientSocket == INVALID_SOCKET) {
             printf("accept failed: %d\n", WSAGetLastError());
+            //continue;
             return 1;
         }
         clientSockets.push_back(ClientSocket);
@@ -152,6 +154,7 @@ void accept_message(std::vector<int>& clientSockets, int& i, char recvbuf[DEFAUL
     if (iResult > 0) {
         recvbuf[iResult] = '\0';
         printf("Received from client: %s\n", recvbuf);
+
         send_message_to_drone(clientSockets[i]);
 
     }
