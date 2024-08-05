@@ -10,12 +10,11 @@ int bind_to_first_available_socket(int& sockfd, struct addrinfo* servinfo);
 int start_listening(int& sockfd);
 #pragma endregion
 // Add a new file descriptor to the set
-void add_to_pfds(struct pollfd* pfds[], int newfd, int* fd_count, int* fd_size);
+void add_to_activeConnections(struct pollfd* activeConnections[], int newfd, int* fd_count, int* fd_size);
 
 // Remove an index from the set
-void del_from_pfds(struct pollfd pfds[], int i, int* fd_count);
+void del_from_activeConnections(struct pollfd activeConnections[], int i, int* fd_count);
 
-//while(true)
 int define_clients_sockets_and_poll(std::vector<int>& clientSockets, WSAPOLLFD fds[FD_SETSIZE]);
 int check_about_new_client_connection(int& ListenSocket, WSAPOLLFD fds[FD_SETSIZE], std::vector<int>& clientSockets);
 void accept_message(std::vector<int>& clientSockets, int& i, char recvbuf[DEFAULT_BUFLEN], int& recvbuflen);
