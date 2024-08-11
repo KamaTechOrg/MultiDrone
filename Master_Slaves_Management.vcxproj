@@ -19,7 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\dataOfMessage.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\event.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\ImageFromSlave.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\mapRequest.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Message.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\MessageParams.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\MessageType.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\PointForSlave.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Priority.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Queue.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\RealImage.h" />
     <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Scheduling.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Slave.h" />
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\SlavesManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Message.cpp" />

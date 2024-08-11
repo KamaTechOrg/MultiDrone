@@ -91,6 +91,45 @@
     <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Scheduling.h">
       <Filter>SourceCode\Header\Scheduler</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Slave.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\SlavesManager.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\dataOfMessage.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\event.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\ImageFromSlave.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\mapRequest.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Message.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\MessageParams.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\MessageType.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\PointForSlave.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Priority.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Queue.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\RealImage.h">
+      <Filter>SourceCode\Header\MessageTemplate</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\PrioritySchedulingAlgorithmAndTests\PrioritySchedulingAlgorithmAndTests\Message.cpp">
