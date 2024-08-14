@@ -584,10 +584,24 @@ bool disk_mng_isTheDataCorrect(MapRange_t* range, int size, int* map)
         test_writeExceptionToFile(Error_Worng_Size_Variable, "disk_mng_checkDataStructures_mapSize");
         return false;
     }
-    if (false)
+    if (isCorrectRange(range->topLeft,range->bottomRight))
     {
         test_writeExceptionToFile(Error_Worng_Map_Range, "disk_mng_checkDataStructures_range");
         return false;
     }
+    return true;
+}
+
+bool isCorrectRange(Point_t TL, Point_t BR)
+{
+
+    if (TL.x<0||TL.y<0||BR.x<0||BR.y<0//negetavie
+        ||TL.x > BR.x ||TL.y > BR.y //worng
+        ||TL.x<POINT_TL_RANGE.x ||TL.y<POINT_TL_RANGE.y //not in disk range
+        ||BR.x>POINT_BR_RANGE.x ||BR.y>POINT_BR_RANGE.y)//not in disk range
+    {
+        return false;
+    }
+
     return true;
 }

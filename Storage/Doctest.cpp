@@ -9,6 +9,7 @@
 #include <vector>
 extern "C" {
 #include "Disk_Mng_Master.h"
+#include "Disk_Mng_Master.c"
 #include "Disk_Mng_Master_API.h"
 }
 struct GlobalSetup {
@@ -819,3 +820,4 @@ TEST_CASE("Test disk_mng_delete") {
         REQUIRE(totalSizeToFree <= 0); // Verify that enough space was freed
     }
 }
+

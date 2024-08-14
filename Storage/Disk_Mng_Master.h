@@ -7,6 +7,8 @@
 
 
 #define DISK_SIZE 1000
+#define POINT_TL_RANGE (Point_t){0, 0}
+#define POINT_BR_RANGE (Point_t){100, 100}
 
 // Forward declarations
 typedef struct AVLNode_s AVLNode_t;
@@ -247,3 +249,5 @@ int* disk_addMap(int* map);
 void disk_mng_addMap(MapRange_t* range, int size, int* map);
 
 bool disk_isThereEnoughSpace(int mapSize);
+
+bool isCorrectRange(Point_t TL, Point_t BR);
