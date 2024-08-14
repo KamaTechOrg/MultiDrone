@@ -210,11 +210,25 @@ void test_writeExceptionToFile(Exception exception, const char* source) {
         fprintf(stderr, "Error opening file for writing\n");
         return;
     }
-
     const char* error_message;
     switch (exception) {
     case Error_When_Allocating_Memory_Space:
         error_message = "Error: Error when allocating memory space.";
+        break;
+    case Error_When_Deleting_Map_from_Disk:
+        error_message = "Error: Error when deleting map from disk.";
+        break;
+    case Error_When_Adding_Map_To_Disk:
+        error_message = "Error: Error when adding map to disk.";
+        break;
+    case Error_Worng_Size_Variable:
+        error_message = "Error: Error worng size variable.";
+        break;
+    case Error_Worng_Map_Variable:
+        error_message = "Error: Error worng map variable.";
+        break;
+    case Error_Worng_Map_Range:
+        error_message = "Error: Error worng map range.";
         break;
     default:
         error_message = "Error: Unknown exception.";
